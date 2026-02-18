@@ -1,4 +1,4 @@
 **/.nvim/
-light.png
-dark.png
-demo.cpp
+assets/light.png
+assets/dark.png
+assets/demo.cpp
