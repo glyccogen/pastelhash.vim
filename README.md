@@ -84,7 +84,7 @@
       </td>
     </tr>
     <tr>
-      <td align="center"><code>comment</code></td>
+      <td align="center"><code>comment, delimiter</code></td>
       <td colspan="2" align="center">
         <img src="assets/swatches/7F879E.svg" width="12" height="12" alt="#7F879E" />
         <code>#7F879E</code>
