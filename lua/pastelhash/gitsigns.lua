@@ -10,7 +10,7 @@ local function palette()
 		return {
 			bg_alt = "#EEEEFC",
 			fg = "#3F3F53",
-			add = "#79C779",
+			add = "#1EB81E",
 			change = "#FABD2F",
 			delete = "#EE5E66",
 			info = "#66AFEF",
@@ -21,7 +21,7 @@ local function palette()
 	return {
 		bg_alt = "#202025",
 		fg = "#BDBDD9",
-		add = "#79C779",
+		add = "#1EB81E",
 		change = "#FABD2F",
 		delete = "#EE5E66",
 		info = "#66AFEF",

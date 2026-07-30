@@ -21,22 +21,28 @@ if s:variant ==# 'light'
 	let s:bg      = '#F7F7FF'
 	let s:bg_alt  = '#EEEEFC'
 	let s:fg      = '#3F3F53'
+	let s:literal = '#095CD0'
+	let s:decl    = '#8142C0'
+	let s:keyword = '#904E75'
+	let s:immutable = '#095CD0'
+	let s:method  = '#48559C'
 else
 	let s:bg      = '#252530'
 	let s:bg_alt  = '#202025'
 	let s:fg      = '#BDBDD9'
+	let s:literal = '#75BCFF'
+	let s:decl    = '#CFAAFF'
+	let s:keyword = '#E9A8CC'
+	let s:immutable = '#75BCFF'
+	let s:method  = '#AFB7F2'
 endif
 
 let s:error    = '#EE5E66'
 let s:warning  = '#FABD2F'
-let s:ok       = '#79C779'
+let s:ok       = '#1EB81E'
 let s:info     = '#66AFEF'
 let s:hint     = '#66B6C6'
 let s:comment  = '#7F879E'
-let s:literal  = '#88B8FA'
-let s:decl     = '#AF87D7'
-let s:keyword  = '#CC7000'
-let s:immutable = '#AB7F49'
 
 let s:deprecated_as_warn = get(g:, 'pastelhash_deprecated_as_warn', 0)
 let s:highlight_immutable = get(g:, 'pastelhash_highlight_immutable', 0)
@@ -208,7 +214,7 @@ if has('nvim')
 	call s:hi('@function.macro',       s:fg,      s:none, 'NONE')
 	call s:hi('@function.method',      s:fg,      s:none, 'NONE')
 	call s:hi('@function.call',        s:fg,      s:none, 'NONE')
-	call s:hi('@function.method.call', s:fg,      s:none, 'NONE')
+	call s:hi('@function.method.call', s:method,  s:none, 'NONE')
 	call s:hi('@constructor',          s:fg,      s:none, 'NONE')
 	call s:hi('@type',                 s:fg,      s:none, 'NONE')
 	call s:hi('@type.definition',      s:decl,    s:none, 'NONE')
@@ -256,7 +262,7 @@ if has('nvim')
 	call s:link('@lsp.type.function',           'Function')
 	call s:link('@lsp.type.keyword',            'Keyword')
 	call s:link('@lsp.type.macro',              'PreProc')
-	call s:link('@lsp.type.method',             'Function')
+	call s:hi('@lsp.type.method',               s:method,  s:none, 'NONE')
 	call s:link('@lsp.type.namespace',          'Identifier')
 	call s:link('@lsp.type.number',             'Number')
 	call s:link('@lsp.type.operator',           'Operator')
@@ -273,6 +279,6 @@ if has('nvim')
 	lua pcall(function() require('pastelhash.gitsigns').apply() end)
 endif
 
-unlet s:variant s:bg s:bg_alt s:fg s:error s:warning s:ok s:info s:hint s:comment s:literal s:decl s:keyword s:immutable s:none s:deprecated_as_warn s:highlight_immutable s:highlight_keywords s:keyword_fg
+unlet s:variant s:bg s:bg_alt s:fg s:error s:warning s:ok s:info s:hint s:comment s:literal s:decl s:keyword s:immutable s:method s:none s:deprecated_as_warn s:highlight_immutable s:highlight_keywords s:keyword_fg
 delfunction s:hi
 delfunction s:link
