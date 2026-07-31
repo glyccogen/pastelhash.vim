@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="902" height="1164" viewBox="0 0 902 1164">
+<style>text { font-family: 'Lilex', monospace; }</style>
+<rect x="1" y="1" width="900" height="575" rx="15" fill="#F7F7FF" stroke="#8A8A9A"/>
+<rect x="2" y="524" width="898" height="27" fill="#EEEEFC"/>
+<text x="49" y="31" fill="#7F879E" font-size="15" font-weight="400" font-style="normal">19</text>
+<text x="73" y="31" font-size="19" xml:space="preserve"><tspan fill="#8142C0">#include</tspan><tspan fill="#3F3F53"> </tspan><tspan fill="#095CD0">&quot;theme.hpp&quot;</tspan></text>
+<text x="49" y="58" fill="#7F879E" font-size="15" font-weight="400" font-style="normal">18</text>
+<text x="73" y="58" font-size="19" xml:space="preserve"><tspan fill="#8142C0">#include</tspan><tspan fill="#3F3F53"> </tspan><tspan fill="#095CD0">&lt;iostream&gt;</tspan></text>
+<text x="49" y="85" fill="#7F879E" font-size="15" font-weight="400" font-style="normal">17</text>
+<text x="73" y="85" font-size="19" xml:space="preserve"><tspan fill="#904E75">#define</tspan><tspan fill="#3F3F53"> </tspan><tspan fill="#8142C0">START_VALUE</tspan><tspan fill="#3F3F53"> </tspan><tspan fill="#095CD0">3</tspan></text>
+<text x="49" y="112" fill="#7F879E" font-size="15" font-weight="400" font-style="normal">16</text>
+<text x="73" y="112" font-size="19" xml:space="preserve"><tspan fill="#7F879E" font-style="italic">// comment</tspan></text>
+<text x="49" y="139" fill="#7F879E" font-size="15" font-weight="400" font-style="normal">15</text>
+<text x="73" y="139" font-size="19" xml:space="preserve"><tspan fill="#904E75">constexpr</tspan><tspan fill="#3F3F53"> int </tspan><tspan fill="#8142C0">kStartValue</tspan><tspan fill="#3F3F53"> = </tspan><tspan fill="#095CD0">START_VALUE</tspan><tspan fill="#7F879E">;</tspan></text>
+<text x="49" y="166" fill="#7F879E" font-size="15" font-weight="400" font-style="normal">14</text>
+<text x="73" y="166" font-size="19" xml:space="preserve"><tspan fill="#3F3F53">std</tspan><tspan fill="#7F879E">::</tspan><tspan fill="#3F3F53">size_t ListInt</tspan><tspan fill="#7F879E">::</tspan><tspan fill="#8142C0">size</tspan><tspan fill="#7F879E">()</tspan><tspan fill="#3F3F53"> </tspan><tspan fill="#904E75">const</tspan><tspan fill="#3F3F53"> </tspan><tspan fill="#7F879E">{</tspan><tspan fill="#3F3F53"> </tspan><tspan fill="#904E75">return</tspan><tspan fill="#3F3F53"> values_</tspan><tspan fill="#7F879E">.</tspan><tspan fill="#095CD0">size</tspan><tspan fill="#7F879E">(); }</tspan></text>
+<text x="49" y="193" fill="#7F879E" font-size="15" font-weight="400" font-style="normal">13</text>
+<text x="73" y="193" font-size="19" xml:space="preserve"><tspan fill="#3F3F53">void ListInt</tspan><tspan fill="#7F879E">::</tspan><tspan fill="#8142C0">push</tspan><tspan fill="#7F879E">(</tspan><tspan fill="#3F3F53">int value</tspan><tspan fill="#7F879E">) {</tspan><tspan fill="#3F3F53"> values_</tspan><tspan fill="#7F879E">.</tspan><tspan fill="#48559C">push_back</tspan><tspan fill="#7F879E">(</tspan><tspan fill="#3F3F53">value</tspan><tspan fill="#7F879E">); }</tspan></text>
+<text x="49" y="220" fill="#7F879E" font-size="15" font-weight="400" font-style="normal">12</text>
+<text x="73" y="220" font-size="19" xml:space="preserve"></text>
+<text x="49" y="247" fill="#7F879E" font-size="15" font-weight="400" font-style="normal">11</text>
+<text x="73" y="247" font-size="19" xml:space="preserve"><tspan fill="#3F3F53">int </tspan><tspan fill="#8142C0">main</tspan><tspan fill="#7F879E">() {</tspan></text>
+<text x="49" y="274" fill="#7F879E" font-size="15" font-weight="400" font-style="normal">10</text>
+<text x="73" y="274" font-size="19" xml:space="preserve"><tspan fill="#3F3F53">    ListInt </tspan><tspan fill="#8142C0">values</tspan><tspan fill="#7F879E">;</tspan></text>
+<text x="49" y="301" fill="#7F879E" font-size="15" font-weight="400" font-style="normal">9</text>
+<text x="73" y="301" font-size="19" xml:space="preserve"><tspan fill="#3F3F53">    values</tspan><tspan fill="#7F879E">.</tspan><tspan fill="#48559C">push</tspan><tspan fill="#7F879E">(</tspan><tspan fill="#095CD0">kStartValue</tspan><tspan fill="#7F879E">);</tspan></text>
+<text x="49" y="328" fill="#7F879E" font-size="15" font-weight="400" font-style="normal">8</text>
+<text x="73" y="328" font-size="19" xml:space="preserve"><tspan fill="#3F3F53">    </tspan><tspan fill="#904E75">const</tspan><tspan fill="#3F3F53"> </tspan><tspan fill="#904E75">auto</tspan><tspan fill="#3F3F53"> </tspan><tspan fill="#8142C0">count</tspan><tspan fill="#3F3F53"> = values</tspan><tspan fill="#7F879E">.</tspan><tspan fill="#095CD0">size</tspan><tspan fill="#7F879E">();</tspan></text>
+<text x="49" y="355" fill="#7F879E" font-size="15" font-weight="400" font-style="normal">7</text>
+<text x="73" y="355" font-size="19" xml:space="preserve"><tspan fill="#3F3F53">    </tspan><tspan fill="#904E75">const</tspan><tspan fill="#3F3F53"> int </tspan><tspan fill="#FABD2F" font-style="italic" text-decoration="underline">retry_budget</tspan><tspan fill="#3F3F53"> = </tspan><tspan fill="#095CD0">3</tspan><tspan fill="#7F879E">;</tspan></text>
+<text x="49" y="382" fill="#7F879E" font-size="15" font-weight="400" font-style="normal">6</text>
+<text x="73" y="382" font-size="19" xml:space="preserve"><tspan fill="#3F3F53">    std</tspan><tspan fill="#7F879E">::</tspan><tspan fill="#3F3F53">cout &lt;&lt; </tspan><tspan fill="#095CD0">&quot;size: &quot;</tspan><tspan fill="#3F3F53"> &lt;&lt; count &lt;&lt; </tspan><tspan fill="#095CD0">&#x27;\n&#x27;</tspan><tspan fill="#7F879E">;</tspan></text>
+<text x="49" y="409" fill="#7F879E" font-size="15" font-weight="400" font-style="normal">5</text>
+<text x="73" y="409" font-size="19" xml:space="preserve"><tspan fill="#3F3F53">    </tspan><tspan fill="#904E75">if</tspan><tspan fill="#3F3F53"> </tspan><tspan fill="#7F879E">(</tspan><tspan fill="#3F3F53">count &gt; </tspan><tspan fill="#095CD0">0</tspan><tspan fill="#7F879E">)</tspan><tspan fill="#3F3F53"> </tspan><tspan fill="#904E75">return</tspan><tspan fill="#3F3F53"> </tspan><tspan fill="#095CD0">0</tspan><tspan fill="#7F879E">;</tspan></text>
+<text x="49" y="436" fill="#7F879E" font-size="15" font-weight="400" font-style="normal">4</text>
+<text x="73" y="436" font-size="19" xml:space="preserve"><tspan fill="#3F3F53">    </tspan><tspan fill="#904E75">return</tspan><tspan fill="#3F3F53"> </tspan><tspan fill="#095CD0">1</tspan><tspan fill="#7F879E">;</tspan></text>
+<text x="49" y="463" fill="#7F879E" font-size="15" font-weight="400" font-style="normal">3</text>
+<text x="73" y="463" font-size="19" xml:space="preserve"><tspan fill="#7F879E">}</tspan></text>
+<text x="49" y="490" fill="#7F879E" font-size="15" font-weight="400" font-style="normal">2</text>
+<text x="73" y="490" font-size="19" xml:space="preserve"></text>
+<text x="49" y="517" fill="#7F879E" font-size="15" font-weight="400" font-style="normal">1</text>
+<text x="73" y="517" font-size="19" xml:space="preserve"><tspan fill="#3F3F53">static_assert</tspan><tspan fill="#7F879E">(</tspan><tspan fill="#EE5E66" font-style="italic" text-decoration="underline">false</tspan><tspan fill="#7F879E">, </tspan><tspan fill="#095CD0">&quot;ERRor!&quot;</tspan><tspan fill="#7F879E">);</tspan></text>
+<text x="49" y="544" fill="#3F3F53" font-size="15" font-weight="700" font-style="normal">20</text>
+<text x="73" y="544" font-size="19" xml:space="preserve"></text>
+<line x1="2" y1="233.5" x2="13" y2="233.5" stroke="#EE5E66" stroke-width="3"/>
+<line x1="6" y1="337" x2="6" y2="361" stroke="#1EB81E" stroke-width="4"/>
+<line x1="6" y1="499" x2="6" y2="523" stroke="#FABD2F" stroke-width="4"/>
+<line x1="6" y1="526" x2="6" y2="550" stroke="#1EB81E" stroke-width="4"/>
+<circle cx="26" cy="350" r="5" fill="#FABD2F"/>
+<rect x="472.0" y="334" width="390" height="26" fill="#EEEEFC"/>
+<text x="472.0" y="355" fill="#FABD2F" font-size="18" font-weight="400" font-style="normal">● Unused variable &#x27;retry_budget&#x27;</text>
+<circle cx="26" cy="512" r="5" fill="#EE5E66"/>
+<rect x="472.0" y="496" width="410" height="26" fill="#EEEEFC"/>
+<text x="472.0" y="517" fill="#EE5E66" font-size="18" font-weight="400" font-style="normal">● Static assertion failed: ERRor!</text>
+<rect x="73" y="524" width="12" height="27" fill="#3F3F53"/>
+<rect x="1" y="588" width="900" height="575" rx="15" fill="#252530" stroke="#8A8A9A"/>
+<rect x="2" y="1111" width="898" height="27" fill="#202025"/>
+<text x="49" y="618" fill="#7F879E" font-size="15" font-weight="400" font-style="normal">19</text>
+<text x="73" y="618" font-size="19" xml:space="preserve"><tspan fill="#CFAAFF">#include</tspan><tspan fill="#BDBDD9"> </tspan><tspan fill="#75BCFF">&quot;theme.hpp&quot;</tspan></text>
+<text x="49" y="645" fill="#7F879E" font-size="15" font-weight="400" font-style="normal">18</text>
+<text x="73" y="645" font-size="19" xml:space="preserve"><tspan fill="#CFAAFF">#include</tspan><tspan fill="#BDBDD9"> </tspan><tspan fill="#75BCFF">&lt;iostream&gt;</tspan></text>
+<text x="49" y="672" fill="#7F879E" font-size="15" font-weight="400" font-style="normal">17</text>
+<text x="73" y="672" font-size="19" xml:space="preserve"><tspan fill="#E9A8CC">#define</tspan><tspan fill="#BDBDD9"> </tspan><tspan fill="#CFAAFF">START_VALUE</tspan><tspan fill="#BDBDD9"> </tspan><tspan fill="#75BCFF">3</tspan></text>
+<text x="49" y="699" fill="#7F879E" font-size="15" font-weight="400" font-style="normal">16</text>
+<text x="73" y="699" font-size="19" xml:space="preserve"><tspan fill="#7F879E" font-style="italic">// comment</tspan></text>
+<text x="49" y="726" fill="#7F879E" font-size="15" font-weight="400" font-style="normal">15</text>
+<text x="73" y="726" font-size="19" xml:space="preserve"><tspan fill="#E9A8CC">constexpr</tspan><tspan fill="#BDBDD9"> int </tspan><tspan fill="#CFAAFF">kStartValue</tspan><tspan fill="#BDBDD9"> = </tspan><tspan fill="#75BCFF">START_VALUE</tspan><tspan fill="#7F879E">;</tspan></text>
+<text x="49" y="753" fill="#7F879E" font-size="15" font-weight="400" font-style="normal">14</text>
+<text x="73" y="753" font-size="19" xml:space="preserve"><tspan fill="#BDBDD9">std</tspan><tspan fill="#7F879E">::</tspan><tspan fill="#BDBDD9">size_t ListInt</tspan><tspan fill="#7F879E">::</tspan><tspan fill="#CFAAFF">size</tspan><tspan fill="#7F879E">()</tspan><tspan fill="#BDBDD9"> </tspan><tspan fill="#E9A8CC">const</tspan><tspan fill="#BDBDD9"> </tspan><tspan fill="#7F879E">{</tspan><tspan fill="#BDBDD9"> </tspan><tspan fill="#E9A8CC">return</tspan><tspan fill="#BDBDD9"> values_</tspan><tspan fill="#7F879E">.</tspan><tspan fill="#75BCFF">size</tspan><tspan fill="#7F879E">(); }</tspan></text>
+<text x="49" y="780" fill="#7F879E" font-size="15" font-weight="400" font-style="normal">13</text>
+<text x="73" y="780" font-size="19" xml:space="preserve"><tspan fill="#BDBDD9">void ListInt</tspan><tspan fill="#7F879E">::</tspan><tspan fill="#CFAAFF">push</tspan><tspan fill="#7F879E">(</tspan><tspan fill="#BDBDD9">int value</tspan><tspan fill="#7F879E">) {</tspan><tspan fill="#BDBDD9"> values_</tspan><tspan fill="#7F879E">.</tspan><tspan fill="#AFB7F2">push_back</tspan><tspan fill="#7F879E">(</tspan><tspan fill="#BDBDD9">value</tspan><tspan fill="#7F879E">); }</tspan></text>
+<text x="49" y="807" fill="#7F879E" font-size="15" font-weight="400" font-style="normal">12</text>
+<text x="73" y="807" font-size="19" xml:space="preserve"></text>
+<text x="49" y="834" fill="#7F879E" font-size="15" font-weight="400" font-style="normal">11</text>
+<text x="73" y="834" font-size="19" xml:space="preserve"><tspan fill="#BDBDD9">int </tspan><tspan fill="#CFAAFF">main</tspan><tspan fill="#7F879E">() {</tspan></text>
+<text x="49" y="861" fill="#7F879E" font-size="15" font-weight="400" font-style="normal">10</text>
+<text x="73" y="861" font-size="19" xml:space="preserve"><tspan fill="#BDBDD9">    ListInt </tspan><tspan fill="#CFAAFF">values</tspan><tspan fill="#7F879E">;</tspan></text>
+<text x="49" y="888" fill="#7F879E" font-size="15" font-weight="400" font-style="normal">9</text>
+<text x="73" y="888" font-size="19" xml:space="preserve"><tspan fill="#BDBDD9">    values</tspan><tspan fill="#7F879E">.</tspan><tspan fill="#AFB7F2">push</tspan><tspan fill="#7F879E">(</tspan><tspan fill="#75BCFF">kStartValue</tspan><tspan fill="#7F879E">);</tspan></text>
+<text x="49" y="915" fill="#7F879E" font-size="15" font-weight="400" font-style="normal">8</text>
+<text x="73" y="915" font-size="19" xml:space="preserve"><tspan fill="#BDBDD9">    </tspan><tspan fill="#E9A8CC">const</tspan><tspan fill="#BDBDD9"> </tspan><tspan fill="#E9A8CC">auto</tspan><tspan fill="#BDBDD9"> </tspan><tspan fill="#CFAAFF">count</tspan><tspan fill="#BDBDD9"> = values</tspan><tspan fill="#7F879E">.</tspan><tspan fill="#75BCFF">size</tspan><tspan fill="#7F879E">();</tspan></text>
+<text x="49" y="942" fill="#7F879E" font-size="15" font-weight="400" font-style="normal">7</text>
+<text x="73" y="942" font-size="19" xml:space="preserve"><tspan fill="#BDBDD9">    </tspan><tspan fill="#E9A8CC">const</tspan><tspan fill="#BDBDD9"> int </tspan><tspan fill="#FABD2F" font-style="italic" text-decoration="underline">retry_budget</tspan><tspan fill="#BDBDD9"> = </tspan><tspan fill="#75BCFF">3</tspan><tspan fill="#7F879E">;</tspan></text>
+<text x="49" y="969" fill="#7F879E" font-size="15" font-weight="400" font-style="normal">6</text>
+<text x="73" y="969" font-size="19" xml:space="preserve"><tspan fill="#BDBDD9">    std</tspan><tspan fill="#7F879E">::</tspan><tspan fill="#BDBDD9">cout &lt;&lt; </tspan><tspan fill="#75BCFF">&quot;size: &quot;</tspan><tspan fill="#BDBDD9"> &lt;&lt; count &lt;&lt; </tspan><tspan fill="#75BCFF">&#x27;\n&#x27;</tspan><tspan fill="#7F879E">;</tspan></text>
+<text x="49" y="996" fill="#7F879E" font-size="15" font-weight="400" font-style="normal">5</text>
+<text x="73" y="996" font-size="19" xml:space="preserve"><tspan fill="#BDBDD9">    </tspan><tspan fill="#E9A8CC">if</tspan><tspan fill="#BDBDD9"> </tspan><tspan fill="#7F879E">(</tspan><tspan fill="#BDBDD9">count &gt; </tspan><tspan fill="#75BCFF">0</tspan><tspan fill="#7F879E">)</tspan><tspan fill="#BDBDD9"> </tspan><tspan fill="#E9A8CC">return</tspan><tspan fill="#BDBDD9"> </tspan><tspan fill="#75BCFF">0</tspan><tspan fill="#7F879E">;</tspan></text>
+<text x="49" y="1023" fill="#7F879E" font-size="15" font-weight="400" font-style="normal">4</text>
+<text x="73" y="1023" font-size="19" xml:space="preserve"><tspan fill="#BDBDD9">    </tspan><tspan fill="#E9A8CC">return</tspan><tspan fill="#BDBDD9"> </tspan><tspan fill="#75BCFF">1</tspan><tspan fill="#7F879E">;</tspan></text>
+<text x="49" y="1050" fill="#7F879E" font-size="15" font-weight="400" font-style="normal">3</text>
+<text x="73" y="1050" font-size="19" xml:space="preserve"><tspan fill="#7F879E">}</tspan></text>
+<text x="49" y="1077" fill="#7F879E" font-size="15" font-weight="400" font-style="normal">2</text>
+<text x="73" y="1077" font-size="19" xml:space="preserve"></text>
+<text x="49" y="1104" fill="#7F879E" font-size="15" font-weight="400" font-style="normal">1</text>
+<text x="73" y="1104" font-size="19" xml:space="preserve"><tspan fill="#BDBDD9">static_assert</tspan><tspan fill="#7F879E">(</tspan><tspan fill="#EE5E66" font-style="italic" text-decoration="underline">false</tspan><tspan fill="#7F879E">, </tspan><tspan fill="#75BCFF">&quot;ERRor!&quot;</tspan><tspan fill="#7F879E">);</tspan></text>
+<text x="49" y="1131" fill="#BDBDD9" font-size="15" font-weight="700" font-style="normal">20</text>
+<text x="73" y="1131" font-size="19" xml:space="preserve"></text>
+<line x1="2" y1="820.5" x2="13" y2="820.5" stroke="#EE5E66" stroke-width="3"/>
+<line x1="6" y1="924" x2="6" y2="948" stroke="#1EB81E" stroke-width="4"/>
+<line x1="6" y1="1086" x2="6" y2="1110" stroke="#FABD2F" stroke-width="4"/>
+<line x1="6" y1="1113" x2="6" y2="1137" stroke="#1EB81E" stroke-width="4"/>
+<circle cx="26" cy="937" r="5" fill="#FABD2F"/>
+<rect x="472.0" y="921" width="390" height="26" fill="#202025"/>
+<text x="472.0" y="942" fill="#FABD2F" font-size="18" font-weight="400" font-style="normal">● Unused variable &#x27;retry_budget&#x27;</text>
+<circle cx="26" cy="1099" r="5" fill="#EE5E66"/>
+<rect x="472.0" y="1083" width="410" height="26" fill="#202025"/>
+<text x="472.0" y="1104" fill="#EE5E66" font-size="18" font-weight="400" font-style="normal">● Static assertion failed: ERRor!</text>
+<rect x="73" y="1111" width="12" height="27" fill="#BDBDD9"/>
+</svg>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1220" height="630" viewBox="0 0 1220 630">
+<style>text { font-family: 'JetBrains Mono', 'DejaVu Sans Mono', monospace; }</style>
+<rect x="10" y="10" width="590" height="610" rx="22" fill="#F7F7FF" stroke="#EEEEFC" stroke-width="3"/>
+<text x="38" y="52" fill="#3F3F53" font-size="24" font-weight="700">Light palette</text>
+<text x="446" y="50" fill="#3F3F53" font-size="15" font-weight="600">#F7F7FF</text>
+<line x1="36" y1="68" x2="574" y2="68" stroke="#EEEEFC" stroke-width="2"/>
+<rect x="40" y="73" width="24" height="24" rx="6" fill="#F7F7FF" stroke="#3F3F53" stroke-opacity=".25"/>
+<text x="80" y="92" fill="#3F3F53" font-size="16" font-weight="600">bg</text>
+<text x="468" y="92" fill="#3F3F53" font-size="15" font-weight="400">#F7F7FF</text>
+<rect x="28" y="107" width="554" height="36" rx="8" fill="#EEEEFC" opacity=".55"/>
+<rect x="40" y="113" width="24" height="24" rx="6" fill="#EEEEFC" stroke="#3F3F53" stroke-opacity=".25"/>
+<text x="80" y="132" fill="#3F3F53" font-size="16" font-weight="600">bg-alt</text>
+<text x="468" y="132" fill="#3F3F53" font-size="15" font-weight="400">#EEEEFC</text>
+<rect x="40" y="153" width="24" height="24" rx="6" fill="#3F3F53" stroke="#3F3F53" stroke-opacity=".25"/>
+<text x="80" y="172" fill="#3F3F53" font-size="16" font-weight="600">fg</text>
+<text x="468" y="172" fill="#3F3F53" font-size="15" font-weight="400">#3F3F53</text>
+<rect x="28" y="187" width="554" height="36" rx="8" fill="#EEEEFC" opacity=".55"/>
+<rect x="40" y="193" width="24" height="24" rx="6" fill="#EE5E66" stroke="#3F3F53" stroke-opacity=".25"/>
+<text x="80" y="212" fill="#3F3F53" font-size="16" font-weight="600">error</text>
+<text x="468" y="212" fill="#3F3F53" font-size="15" font-weight="400">#EE5E66</text>
+<rect x="40" y="233" width="24" height="24" rx="6" fill="#FABD2F" stroke="#3F3F53" stroke-opacity=".25"/>
+<text x="80" y="252" fill="#3F3F53" font-size="16" font-weight="600">warning</text>
+<text x="468" y="252" fill="#3F3F53" font-size="15" font-weight="400">#FABD2F</text>
+<rect x="28" y="267" width="554" height="36" rx="8" fill="#EEEEFC" opacity=".55"/>
+<rect x="40" y="273" width="24" height="24" rx="6" fill="#1EB81E" stroke="#3F3F53" stroke-opacity=".25"/>
+<text x="80" y="292" fill="#3F3F53" font-size="16" font-weight="600">ok</text>
+<text x="468" y="292" fill="#3F3F53" font-size="15" font-weight="400">#1EB81E</text>
+<rect x="40" y="313" width="24" height="24" rx="6" fill="#66AFEF" stroke="#3F3F53" stroke-opacity=".25"/>
+<text x="80" y="332" fill="#3F3F53" font-size="16" font-weight="600">info</text>
+<text x="468" y="332" fill="#3F3F53" font-size="15" font-weight="400">#66AFEF</text>
+<rect x="28" y="347" width="554" height="36" rx="8" fill="#EEEEFC" opacity=".55"/>
+<rect x="40" y="353" width="24" height="24" rx="6" fill="#66B6C6" stroke="#3F3F53" stroke-opacity=".25"/>
+<text x="80" y="372" fill="#3F3F53" font-size="16" font-weight="600">hint</text>
+<text x="468" y="372" fill="#3F3F53" font-size="15" font-weight="400">#66B6C6</text>
+<rect x="40" y="393" width="24" height="24" rx="6" fill="#7F879E" stroke="#3F3F53" stroke-opacity=".25"/>
+<text x="80" y="412" fill="#3F3F53" font-size="16" font-weight="600">comment / delimiter</text>
+<text x="468" y="412" fill="#3F3F53" font-size="15" font-weight="400">#7F879E</text>
+<rect x="28" y="427" width="554" height="36" rx="8" fill="#EEEEFC" opacity=".55"/>
+<rect x="40" y="433" width="24" height="24" rx="6" fill="#095CD0" stroke="#3F3F53" stroke-opacity=".25"/>
+<text x="80" y="452" fill="#3F3F53" font-size="16" font-weight="600">literal / immutable</text>
+<text x="468" y="452" fill="#3F3F53" font-size="15" font-weight="400">#095CD0</text>
+<rect x="40" y="473" width="24" height="24" rx="6" fill="#8142C0" stroke="#3F3F53" stroke-opacity=".25"/>
+<text x="80" y="492" fill="#3F3F53" font-size="16" font-weight="600">declaration</text>
+<text x="468" y="492" fill="#3F3F53" font-size="15" font-weight="400">#8142C0</text>
+<rect x="28" y="507" width="554" height="36" rx="8" fill="#EEEEFC" opacity=".55"/>
+<rect x="40" y="513" width="24" height="24" rx="6" fill="#904E75" stroke="#3F3F53" stroke-opacity=".25"/>
+<text x="80" y="532" fill="#3F3F53" font-size="16" font-weight="600">keyword</text>
+<text x="468" y="532" fill="#3F3F53" font-size="15" font-weight="400">#904E75</text>
+<rect x="40" y="553" width="24" height="24" rx="6" fill="#48559C" stroke="#3F3F53" stroke-opacity=".25"/>
+<text x="80" y="572" fill="#3F3F53" font-size="16" font-weight="600">method call</text>
+<text x="468" y="572" fill="#3F3F53" font-size="15" font-weight="400">#48559C</text>
+<rect x="620" y="10" width="590" height="610" rx="22" fill="#252530" stroke="#202025" stroke-width="3"/>
+<text x="648" y="52" fill="#BDBDD9" font-size="24" font-weight="700">Dark palette</text>
+<text x="1056" y="50" fill="#BDBDD9" font-size="15" font-weight="600">#252530</text>
+<line x1="646" y1="68" x2="1184" y2="68" stroke="#202025" stroke-width="2"/>
+<rect x="650" y="73" width="24" height="24" rx="6" fill="#252530" stroke="#BDBDD9" stroke-opacity=".25"/>
+<text x="690" y="92" fill="#BDBDD9" font-size="16" font-weight="600">bg</text>
+<text x="1078" y="92" fill="#BDBDD9" font-size="15" font-weight="400">#252530</text>
+<rect x="638" y="107" width="554" height="36" rx="8" fill="#202025" opacity=".55"/>
+<rect x="650" y="113" width="24" height="24" rx="6" fill="#202025" stroke="#BDBDD9" stroke-opacity=".25"/>
+<text x="690" y="132" fill="#BDBDD9" font-size="16" font-weight="600">bg-alt</text>
+<text x="1078" y="132" fill="#BDBDD9" font-size="15" font-weight="400">#202025</text>
+<rect x="650" y="153" width="24" height="24" rx="6" fill="#BDBDD9" stroke="#BDBDD9" stroke-opacity=".25"/>
+<text x="690" y="172" fill="#BDBDD9" font-size="16" font-weight="600">fg</text>
+<text x="1078" y="172" fill="#BDBDD9" font-size="15" font-weight="400">#BDBDD9</text>
+<rect x="638" y="187" width="554" height="36" rx="8" fill="#202025" opacity=".55"/>
+<rect x="650" y="193" width="24" height="24" rx="6" fill="#EE5E66" stroke="#BDBDD9" stroke-opacity=".25"/>
+<text x="690" y="212" fill="#BDBDD9" font-size="16" font-weight="600">error</text>
+<text x="1078" y="212" fill="#BDBDD9" font-size="15" font-weight="400">#EE5E66</text>
+<rect x="650" y="233" width="24" height="24" rx="6" fill="#FABD2F" stroke="#BDBDD9" stroke-opacity=".25"/>
+<text x="690" y="252" fill="#BDBDD9" font-size="16" font-weight="600">warning</text>
+<text x="1078" y="252" fill="#BDBDD9" font-size="15" font-weight="400">#FABD2F</text>
+<rect x="638" y="267" width="554" height="36" rx="8" fill="#202025" opacity=".55"/>
+<rect x="650" y="273" width="24" height="24" rx="6" fill="#1EB81E" stroke="#BDBDD9" stroke-opacity=".25"/>
+<text x="690" y="292" fill="#BDBDD9" font-size="16" font-weight="600">ok</text>
+<text x="1078" y="292" fill="#BDBDD9" font-size="15" font-weight="400">#1EB81E</text>
+<rect x="650" y="313" width="24" height="24" rx="6" fill="#66AFEF" stroke="#BDBDD9" stroke-opacity=".25"/>
+<text x="690" y="332" fill="#BDBDD9" font-size="16" font-weight="600">info</text>
+<text x="1078" y="332" fill="#BDBDD9" font-size="15" font-weight="400">#66AFEF</text>
+<rect x="638" y="347" width="554" height="36" rx="8" fill="#202025" opacity=".55"/>
+<rect x="650" y="353" width="24" height="24" rx="6" fill="#66B6C6" stroke="#BDBDD9" stroke-opacity=".25"/>
+<text x="690" y="372" fill="#BDBDD9" font-size="16" font-weight="600">hint</text>
+<text x="1078" y="372" fill="#BDBDD9" font-size="15" font-weight="400">#66B6C6</text>
+<rect x="650" y="393" width="24" height="24" rx="6" fill="#7F879E" stroke="#BDBDD9" stroke-opacity=".25"/>
+<text x="690" y="412" fill="#BDBDD9" font-size="16" font-weight="600">comment / delimiter</text>
+<text x="1078" y="412" fill="#BDBDD9" font-size="15" font-weight="400">#7F879E</text>
+<rect x="638" y="427" width="554" height="36" rx="8" fill="#202025" opacity=".55"/>
+<rect x="650" y="433" width="24" height="24" rx="6" fill="#75BCFF" stroke="#BDBDD9" stroke-opacity=".25"/>
+<text x="690" y="452" fill="#BDBDD9" font-size="16" font-weight="600">literal / immutable</text>
+<text x="1078" y="452" fill="#BDBDD9" font-size="15" font-weight="400">#75BCFF</text>
+<rect x="650" y="473" width="24" height="24" rx="6" fill="#CFAAFF" stroke="#BDBDD9" stroke-opacity=".25"/>
+<text x="690" y="492" fill="#BDBDD9" font-size="16" font-weight="600">declaration</text>
+<text x="1078" y="492" fill="#BDBDD9" font-size="15" font-weight="400">#CFAAFF</text>
+<rect x="638" y="507" width="554" height="36" rx="8" fill="#202025" opacity=".55"/>
+<rect x="650" y="513" width="24" height="24" rx="6" fill="#E9A8CC" stroke="#BDBDD9" stroke-opacity=".25"/>
+<text x="690" y="532" fill="#BDBDD9" font-size="16" font-weight="600">keyword</text>
+<text x="1078" y="532" fill="#BDBDD9" font-size="15" font-weight="400">#E9A8CC</text>
+<rect x="650" y="553" width="24" height="24" rx="6" fill="#AFB7F2" stroke="#BDBDD9" stroke-opacity=".25"/>
+<text x="690" y="572" fill="#BDBDD9" font-size="16" font-weight="600">method call</text>
+<text x="1078" y="572" fill="#BDBDD9" font-size="15" font-weight="400">#AFB7F2</text>
+</svg>
